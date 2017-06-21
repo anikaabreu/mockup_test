@@ -1,3 +1,93 @@
 // Place all the styles related to the statics controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, serif;
+}
+
+.chen_wrapper {
+  max-width: 100%;
+}
+
+header {
+  padding: 16px;
+  display: flex;
+}
+.logo {
+  width: 880px;
+
+}
+
+.logo img{
+  justify-content: flex-start;
+  width: 218px;
+  height: 65px;
+  flex: 0 0 auto;
+}
+
+.chen_careers {
+flex-flow: column;
+align-self: center;
+font-size:20px;
+color: aquamarine;
+
+}
+
+.chen_careers_find {
+color: grey;
+font-size: 30px;
+}
+
+.chen_locations {
+flex-flow: column;
+font-size:20px;
+color: aquamarine;
+}
+.chen_locations_img {
+
+}
+.chen_locations_logo {
+
+}
+.chen_locations_find {
+ color: grey;
+ font-size: 30px;
+ line-height: 30px;
+
+}
+.chen_nav_bar {
+
+}
+.chen_search_bar {
+
+}
+.chen_body_container{
+display: flex;
+}
+.chen_body_content {
+
+}
+.chen_body_news {
+
+}
+.chen_body_news_logo {
+
+}
+.chen_body_news_content {
+
+}
+.button {
+
+}
+.chen_body_images {
+
+}
+.item {
+
+}
+.chen_continued {
+
+}
