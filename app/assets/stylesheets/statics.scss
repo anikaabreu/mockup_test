@@ -50,12 +50,7 @@ font-size:20px;
 color: aquamarine;
 padding-left: 20px;
 }
-.chen_locations_img {
 
-}
-.chen_locations_logo {
-
-}
 .chen_locations_find {
  color: grey;
  font-size: 30px;
@@ -85,36 +80,43 @@ justify-content: space-between;
   color: white;
   list-style: none;
   text-decoration: none;
-
 }
 
-.chen_search_bar {
 
-}
 .chen_body_container{
 display: flex;
+width: 100%;
+height: auto;
+background-color: #385873;
 }
-.chen_body_content {
 
-}
+
 .chen_body_news {
-
+padding: 90px;
+display: flex;
 }
-.chen_body_news_logo {
 
-}
-.chen_body_news_content {
-
-}
-.button {
-
-}
 .chen_body_images {
+  height: auto;
+  display: flex;
 
 }
-.item {
-
+h1 {
+font-size: 40px;
+color: white;
 }
-.chen_continued {
 
+.chen_body_news_content {
+  padding: 20px;
+}
+
+button {
+  font-size: 15spx;
+  padding: 20px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: white;
 }
