@@ -28,12 +28,15 @@ header {
   flex: 0 0 auto;
 }
 
+.chen_careers_wrapper {
+  flex-flow: row wrap;
+  padding-left: 20px;
+}
+
 .chen_careers {
-flex-flow: column;
-align-self: center;
+
 font-size:20px;
 color: aquamarine;
-
 }
 
 .chen_careers_find {
@@ -42,9 +45,10 @@ font-size: 30px;
 }
 
 .chen_locations {
-flex-flow: column;
+
 font-size:20px;
 color: aquamarine;
+padding-left: 20px;
 }
 .chen_locations_img {
 
@@ -55,12 +59,35 @@ color: aquamarine;
 .chen_locations_find {
  color: grey;
  font-size: 30px;
- line-height: 30px;
 
 }
 .chen_nav_bar {
+background-color: black;
+max-width: 100%;
+display: flex;
+justify-content: space-between;
+flex-basis: 3em;
+align-items: center;
 
 }
+
+ul.primary-nav__list {
+display: flex;
+justify-content: space-between;
+
+}
+li.primary-nav__item {
+    padding-left: 20px;
+    letter-spacing: 4px;
+  }
+ul.primary-nav__list a {
+justify-content: space-between;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+
+}
+
 .chen_search_bar {
 
 }
